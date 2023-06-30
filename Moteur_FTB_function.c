@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 
-void Moteur_FTB(const char* modele, const char* chevaux){
+void Moteur_FTB(const char* modele, int* chevaux){
 	chevaux = 200;
+	modele = "2JZ";
 }
