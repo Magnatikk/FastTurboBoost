@@ -3,5 +3,5 @@
 #include <stdio.h>
 
 void Moteur_FTB(const char* modele, const char* chevaux){
-
+	chevaux = 200;
 }
