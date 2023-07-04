@@ -1,3 +1,3 @@
-alert("Hello, World!")
+alert"Hello, World!";
 // test 3
 
