@@ -1,0 +1,22 @@
+name: CI_FTB
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run a one-line script
+        run: echo Bonjour le monde !
+
+      - name: Run a multi-line script
+        run: |
+          echo Le site de construction
+          echo  de la plus belle voiture !
