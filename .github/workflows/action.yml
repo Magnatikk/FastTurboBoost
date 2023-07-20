@@ -2,9 +2,10 @@ name: CI_FTB
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main, Dev_FTB" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "mainn Dev_FTB" ]
+  
 
 jobs:
   build:
@@ -20,3 +21,6 @@ jobs:
         run: |
           echo Le site de construction
           echo  de la plus belle voiture !
+          
+      - name: Run linter
+        run: npx eslint --ext .js .
