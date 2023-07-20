@@ -24,9 +24,6 @@ jobs:
         run: |
           echo Le site de construction
           echo  de la plus belle voiture !
-          
-      - name: Install dependencies
-        run: npm install
         
       - name: Run linter
         run: npx eslint --ext .js .
