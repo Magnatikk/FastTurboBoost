@@ -2,10 +2,13 @@ name: CI_FTB
 
 on:
   push:
-    branches: [ "main, Dev_FTB" ]
+    branches: 
+      - main
+      - Dev_FTB
   pull_request:
-    branches: [ "main, Dev_FTB" ]
-  
+    branches: 
+      - main
+      - Dev_FTB
 
 jobs:
   build:
