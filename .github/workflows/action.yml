@@ -26,4 +26,4 @@ jobs:
           echo  de la plus belle voiture !
         
       - name: Run linter
-        run: npx eslint --ext .js .
+        run: npx eslint --ext "**/*.js"
